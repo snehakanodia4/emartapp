@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
       create: (ctx) => Cart(),
       child: MaterialApp(
         title: 'E-Mart',
+        // debugShowCheckedModeBanner: false;
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
